@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <title>Bootstrap oh one 基础样式</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="
+    sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .row{
+        margin: 20px 0;
+      }
+      .tabs .row div{
+        border: 1px solid #ccc;
+        height: 40px;
+        line-height: 40px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+  <nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </div>
+  </nav>
+  <div class="container">
+   <!--  <div class="row">
+        <div class="col-md-9 left">
+          <p class="pull-right visible-xs">
+            <button class="btn-xs btn btn-primary">togger</button>
+          </p>
+          <div class="jumbotron">
+            <h1>Hello, world!</h1>
+            <p>发光会叫考拉是对askjdhjasfkasfywqglncms.aasked 萨卡是否看见沙发框架啊谁来对抗；就分开了；sad 就分开了；sad 分可还是放假快乐哈；i 哦福娃的那份撒路径颇有</p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-lg-4">
+              <h2>header</h2>
+              <p>咯聚会基金的NBA华盛顿个阿姨登高望远啊教授的吧吃吧阿苏舒瓦吧阿收藏吧和三餐不继啊啊谁都别撒谎的哈商店阿收藏吧和传播哈是谁乳房疾病的聚会时间快点吧商店附近开始的开发还款金额万分</p>
+              <a href="#" class="btn btn-default">sada</a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-lg-4">
+              <h2>header</h2>
+              <p>咯聚会基金的NBA华盛顿个阿姨登高望远啊教授的吧吃吧阿苏舒瓦吧阿收藏吧和三餐不继啊啊谁都别撒谎的哈商店阿收藏吧和传播哈是谁乳房疾病的聚会时间快点吧商店附近开始的开发还款金额万分</p>
+              <a href="#" class="btn btn-default">sada</a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-lg-4">
+              <h2>header</h2>
+              <p>咯聚会基金的NBA华盛顿个阿姨登高望远啊教授的吧吃吧阿苏舒瓦吧阿收藏吧和三餐不继啊啊谁都别撒谎的哈商店阿收藏吧和传播哈是谁乳房疾病的聚会时间快点吧商店附近开始的开发还款金额万分</p>
+              <a href="#" class="btn btn-default">sada</a>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-lg-4">
+              <h2>header</h2>
+              <p>咯聚会基金的NBA华盛顿个阿姨登高望远啊教授的吧吃吧阿苏舒瓦吧阿收藏吧和三餐不继啊啊谁都别撒谎的哈商店阿收藏吧和传播哈是谁乳房疾病的聚会时间快点吧商店附近开始的开发还款金额万分</p>
+              <a href="#" class="btn btn-default">sada</a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-lg-4">
+              <h2>header</h2>
+              <p>咯聚会基金的NBA华盛顿个阿姨登高望远啊教授的吧吃吧阿苏舒瓦吧阿收藏吧和三餐不继啊啊谁都别撒谎的哈商店阿收藏吧和传播哈是谁乳房疾病的聚会时间快点吧商店附近开始的开发还款金额万分</p>
+              <a href="#" class="btn btn-default">sada</a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-lg-4">
+              <h2>header</h2>
+              <p>咯聚会基金的NBA华盛顿个阿姨登高望远啊教授的吧吃吧阿苏舒瓦吧阿收藏吧和三餐不继啊啊谁都别撒谎的哈商店阿收藏吧和传播哈是谁乳房疾病的聚会时间快点吧商店附近开始的开发还款金额万分</p>
+              <a href="#" class="btn btn-default">sada</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 right">
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+            <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+            <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+            <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+          </ul>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item list-group-item-info">Cras sit amet nibh libero</a>
+            <a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
+            <a href="#" class="list-group-item list-group-item-danger">Vestibulum at eros</a>
+          </div>
+        </div>
+    </div> -->
+  </div>
+    <div class="container tabs">
+      <div class="row">
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-1</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-2</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-3</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-4</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-5</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-6</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-7</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-8</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-9</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-0</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-1</div>
+        <div class="col-lg-2 col-md-1 col-sm-6 col-xs-3">.col-2</div>
+      </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
